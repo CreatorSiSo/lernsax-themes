@@ -30,10 +30,6 @@ A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX des
 - [Urheberrecht und Lizenz/Copyright and license](#urheberrecht-und-lizenz--copyright-and-license)
 
 ## Themes
-
-
-## Wie funktionierts? / How does it work?
-
 ### Light Theme
 
 A theme for LernSax that keeps all the colors but changes how the UI is designed and how its responds to different screen-sizes.
@@ -41,6 +37,10 @@ A theme for LernSax that keeps all the colors but changes how the UI is designed
 ### Dark Theme
 
 text
+
+## Wie funktionierts? / How does it work?
+
+
 
 ## Ersteller / Creator
 
