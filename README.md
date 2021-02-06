@@ -11,8 +11,8 @@
 
 ----
 
-###  -- **Diese Bibliothek ist nur für die Webversion von LernSax erhältich.** --   
-###  -- **This library is only for the web-version of Lern Sax.** --
+<h3 align="center"><strong>Diese Bibliothek ist nur für die Webversion von LernSax erhältich.</strong></h3>
+<h3 align="center"><strong>This library is only available for the web version of Lern Sax.</strong></h3>
 
 ----
 
