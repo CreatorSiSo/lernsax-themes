@@ -16,4 +16,4 @@
 [//]: # (Media Links:)
 
 
-[LernSaxIcon]: ./lernsax_icon/lernsax_favicon_64.bmp
+[LernSaxIcon]: ./lernsax_icon/lernsax_favicon_cut.bmp
