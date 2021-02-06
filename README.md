@@ -8,10 +8,21 @@
 
 ----
 
-##  -- **Diese Bibliothek ist nur für die Webversion von LernSax erhältich.** --   
-##  -- **This library is only for the web-version of Lern Sax.** --
+###  -- **Diese Bibliothek ist nur für die Webversion von LernSax erhältich.** --   
+###  -- **This library is only for the web-version of Lern Sax.** --
 
 ----
+
+## Themes
+
+
+### Light Theme :sunny:
+
+A theme for LernSax that keeps all the colors but changes how the UI is designed and how its responds to different screen-sizes.
+
+### Dark Theme :crescent_moon:
+
+
 
 [//]: # (Media Links:)
 
