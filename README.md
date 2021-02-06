@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# lernsax-themes! ![alt text][LernSaxIcon]
-=======
->>>>>>> 36c192e816ea8e7c9d4a81a612f8ec62e1ee113a
+# ![alt text][LernSaxIcon] lernsax-themes 
 
 >Eine Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von [LernSax.de](https://lernsax.de).  
 >(einer Web- und Software-Suite für die Kommunikation zwischen Institutionen, Lehrern und Schülern in Deutschland, Sachsen)
@@ -19,4 +16,4 @@
 [//]: # (Media Links:)
 
 
-[LernSaxIcon]: lernsax_favicon.ico
+[LernSaxIcon]: ./lernsax_icon/lernsax_favicon_cut.bmp
