@@ -3,6 +3,8 @@
 </p>
 <h1 align="center">lernsax-themes</h1>
 
+----
+
 Eine inoffizielle Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von [LernSax.de](https://lernsax.de).  
 (einer Web- und Softwaresuite für die Kommunikation zwischen Bildungsinstitutionen, Lehrern und Schülern in Deutschland, Sachsen)
 
