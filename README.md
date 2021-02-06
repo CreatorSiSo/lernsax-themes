@@ -23,8 +23,8 @@ A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX des
 ----
 
 - [Themes](#Themes)
-- [Wie funktionierts? / How does it work?](#wie-funktionierts--how-does-it-work)
-- [Ersteller / Creator](#ersteller--creator)
+- [Wie funktionierts?/How does it work?](#wie-funktionierts-how-does-it-work)
+- [Ersteller/Creator](#ersteller-creator)
 - [Copyright and license](#copyright-and-license)
 
 ## Themes
