@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./lernsax_icon/lernsax_favicon_cut.bmp" height="130"/>
+<img src="./lernsax_icon/lernsax_favicon_cut.bmp" height="80"/>
 </p>
 <h1 align="center">lernsax-themes</h1>
 
