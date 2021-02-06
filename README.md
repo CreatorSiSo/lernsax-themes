@@ -3,11 +3,11 @@
 </p>
 <h1 align="center">lernsax-themes</h1>
 
->Eine inoffizielle Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von [LernSax.de](https://lernsax.de).  
->(einer Web- und Softwaresuite für die Kommunikation zwischen Bildungsinstitutionen, Lehrern und Schülern in Deutschland, Sachsen)
+Eine inoffizielle Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von [LernSax.de](https://lernsax.de).  
+(einer Web- und Softwaresuite für die Kommunikation zwischen Bildungsinstitutionen, Lehrern und Schülern in Deutschland, Sachsen)
 
->A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX design of [LernSax.de](https://lernsax.de).  
->(a web- and softwaresuite for communication between educational institutions, teachers and students in Germany, Saxony)
+A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX design of [LernSax.de](https://lernsax.de).  
+(a web- and softwaresuite for communication between educational institutions, teachers and students in Germany, Saxony)
 
 ----
 
