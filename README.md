@@ -1,4 +1,4 @@
-# lernsax-themes![LernSaxIcon](lernsax_favicon.ico =50)
+# lernsax-themes! ![alt text][LernSaxIcon]
 
 >Eine Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von [LernSax.de](https://lernsax.de).  
 >(einer Web- und Software-Suite für die Kommunikation zwischen Institutionen, Lehrern und Schülern in Deutschland, Sachsen)
@@ -8,7 +8,12 @@
 
 ----
 
-##  **Diese Bibliothek ist nur für die Webversion von LernSax erhältich.** 
-##  **This library is only for the web-version of Lern Sax.** 
+##  -- **Diese Bibliothek ist nur für die Webversion von LernSax erhältich.** --   
+##  -- **This library is only for the web-version of Lern Sax.** --
 
 ----
+
+[//]: # (Media Links:)
+
+
+[LernSaxIcon]: lernsax_favicon.ico
