@@ -22,20 +22,33 @@ A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX des
 
 ----
 
+- [Themes](#Themes)
+- [Wie-funktionierts?-/-How-does-it-work?](#Wie-funktionierts?-/-How does-it-work?)
+- [Creator](#creator)
+- [Copyright and license](#copyright-and-license)
+
 ## Themes
 
 
+## Wie funktionierts? / How does it work?
+
 ### Light Theme
 
-    A theme for LernSax that keeps all the colors but changes how the UI is designed and how its responds to different screen-sizes.
+A theme for LernSax that keeps all the colors but changes how the UI is designed and how its responds to different screen-sizes.
 
 ### Dark Theme
 
-    a
+text
 
+## Ersteller / Creator
+
+CreatorSiSo
+
+## Urheberrecht und Lizenz / Copyright and license
+
+GNU v3
 
 
 [//]: # (Media Links:)
-
 
 [LernSaxIcon]: ./lernsax_icon/lernsax_favicon_cut.bmp
