@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # lernsax-themes! ![alt text][LernSaxIcon]
+=======
+>>>>>>> 36c192e816ea8e7c9d4a81a612f8ec62e1ee113a
 
 >Eine Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von [LernSax.de](https://lernsax.de).  
 >(einer Web- und Software-Suite für die Kommunikation zwischen Institutionen, Lehrern und Schülern in Deutschland, Sachsen)
