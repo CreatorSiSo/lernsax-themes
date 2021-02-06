@@ -25,11 +25,13 @@ A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX des
 ## Themes
 
 
-### Light Theme :sunny:
+### Light Theme
 
-A theme for LernSax that keeps all the colors but changes how the UI is designed and how its responds to different screen-sizes.
+    A theme for LernSax that keeps all the colors but changes how the UI is designed and how its responds to different screen-sizes.
 
-### Dark Theme :crescent_moon:
+### Dark Theme
+
+    a
 
 
 
