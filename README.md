@@ -10,7 +10,7 @@ Eine inoffizielle Bibliothek mit CCS (und später vlt. Java Script) Dateien zur 
 (einer Web- und Softwaresuite für die Kommunikation zwischen Bildungsinstitutionen, Lehrern und Schülern in Deutschland, Sachsen)
 <br/>
 <br/>
-A inofficial library of CCS (and maybe JS) files to mainly improve the UI/UX design of <a href="https://lernsax.de">LernSax.de</a>
+A inofficial library of CCS (and maybe later Java Script) files to mainly improve the UI/UX design of <a href="https://lernsax.de">LernSax.de</a>
 <br/>
 (a web- and softwaresuite for communication between educational institutions, teachers and students in Germany, Saxony)
 </p>
