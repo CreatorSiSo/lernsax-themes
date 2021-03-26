@@ -1,19 +1,19 @@
 * {
     color: #ffffff !important;
-    background-color: #181818;
+    background-color: #181818 !important;
 }
 
-.top_outer{
-background: none;
-background-color: #090909;
-}
+.top_outer,
+.top_outer *{
+    background: none;
+    background-color: #303030 !important;
 
-#body_inner{
-  background-color: #090909;
+    width: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .skeleton_main{
-  background-color: #ffffff;
   background: none;
 }
 
