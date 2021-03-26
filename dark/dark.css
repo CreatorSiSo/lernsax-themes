@@ -1,3 +1,22 @@
-#body_9{
-    background-color: red;
+* {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+.top_outer{
+background: none;
+background-color: #090909;
+}
+
+#body_inner{
+  background-color: #090909;
+}
+
+.skeleton_main{
+  background-color: #ffffff;
+  background: none;
+}
+
+skeleton_bottom {
+border: none;
 }
