@@ -5,7 +5,7 @@
 
 ----
 <p align="center">
-Eine inoffizielle Bibliothek mit CCS- (und möglicherweise JS-) Dateien zur Verbesserung der Benutzeroberfläche von <a href="https://lernsax.de">LernSax.de</a>
+Eine inoffizielle Bibliothek mit CCS (und später vlt. Java Script) Dateien zur Verbesserung der Benutzeroberfläche von <a href="https://lernsax.de">LernSax.de</a>
 <br/>
 (einer Web- und Softwaresuite für die Kommunikation zwischen Bildungsinstitutionen, Lehrern und Schülern in Deutschland, Sachsen)
 <br/>
