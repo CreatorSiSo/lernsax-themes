@@ -20,3 +20,10 @@
 .skeleton_bottom {
 border: none;
 }
+
+/*removed parts because they are never used*/
+.top_icons,
+.top_user_name
+{
+    display: none;
+}
