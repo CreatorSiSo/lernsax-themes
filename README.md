@@ -17,8 +17,8 @@ A inofficial library of CCS (and maybe later Java Script) files to mainly improv
 
 ----
 
-<h3 align="center"><strong>Diese Bibliothek ist nur für die Webversion von LernSax erhältich.</strong></h3>
-<h3 align="center"><strong>This library is only available for the web version of Lern Sax.</strong></h3>
+<h3 align="center"><strong>Diese Themes sind nur für die Webversion von LernSax erhältich.</strong></h3>
+<h3 align="center"><strong>These themes are only available for the web version of Lern Sax.</strong></h3>
 
 ----
 
