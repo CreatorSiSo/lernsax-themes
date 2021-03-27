@@ -45,13 +45,17 @@ border: none;
 /*removed parts because they are never used*/
 .top_icons,
 .top_user_name,
-footer > :nth-last-child(1),
+footer > .column:nth-last-child(1),
 .sponsor,
 [alt=Sachsen]
 {
     display: none;
 }
 
-/*.skeleton_bottom * { 
-    all: initial !important;
+.skeleton_bottom * {
+    all: initial;
+}
+
+.column2 {
+    text-align: left;
 }
