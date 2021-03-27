@@ -33,9 +33,7 @@ a:hover {
 .top_outer .slogan {
   all: inherit;
   padding: 1em 0 0 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: auto;
 }
 
 .top_outer .switchNavigation,
