@@ -2,6 +2,14 @@
     color: $text !important;
     background-color: $background-0;
 }*/
+a {
+  color: #5680c2;
+}
+
+a:hover {
+  color: #8f8f8f;
+}
+
 .top_outer {
   background: none !important;
   background-color: #2c2c2c !important;
@@ -14,11 +22,15 @@
 
 .top_outer .meta .top_login_text * {
   background-color: #5680c2;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 .top_outer .meta .top_login_text *:hover {
   background-color: #303030;
+}
+
+.top_outer .switchNavigation {
+  margin: 0 0 0 10%;
 }
 
 .top_outer * {

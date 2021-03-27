@@ -1,5 +1,6 @@
 //colors
 $primary:       #5680c2;
+$secondary:     #8f8f8f;
 
 $privat:        #d45a68;
 $institution:   #70b2ff;
@@ -13,12 +14,20 @@ $background-2:  #2c2c2c;
 $background-3:  #303030;
 
 //styles
-$border-radius-button: 6px;
+$border-radius-button: 5px;
 
 /* {
     color: $text !important;
     background-color: $background-0;
 }*/
+
+a {
+    color: $primary;
+
+    &:hover {
+        color: $secondary;
+    }
+}
 
 .top_outer {
     background: none !important;
@@ -37,6 +46,10 @@ $border-radius-button: 6px;
                 background-color: $background-3;
             }
         }
+    }
+
+    .switchNavigation {
+        margin: 0 0 0 10%;
     }
 
     * {
