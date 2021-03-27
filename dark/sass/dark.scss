@@ -21,7 +21,11 @@ $border-radius-button: 6px;
 }*/
 
 .top_outer {
+    background: none;
     background-color: $background-2 !important;
+
+    width: auto;
+
     .meta {
         background-color: inherit;
 
@@ -34,6 +38,7 @@ $border-radius-button: 6px;
             }
         }
     }
+
     * {
         background-color: inherit;
     }
@@ -51,8 +56,8 @@ footer > .column:nth-last-child(1),
 
 .skeleton_bottom * {
     all: initial;
-}
-
-.column2 {
-    text-align: left;
+    
+    .column2 {
+        text-align: left;
+    }
 }
