@@ -37,6 +37,7 @@ a {
 
     .meta {
         background-color: inherit;
+        padding: 1em 0 0 0;
 
         .top_login_text * {
             background-color: $primary;
@@ -46,10 +47,20 @@ a {
                 background-color: $background-3;
             }
         }
+
+        .buttonSearch {
+        }
     }
 
-    .switchNavigation {
-        margin: 0 0 0 10%;
+    .slogan {
+        all: inherit;
+        padding: 1em 0 0 0;
+        width: fit-content;
+    }
+
+    .switchNavigation,
+    .mainNavigation {
+        padding-top: 2em;
     }
 
     * {
@@ -59,13 +70,14 @@ a {
 
 /*removed parts because they are never used*/
 .top_icons,
-.top_user_name,
 footer > .column:nth-last-child(1),
 .sponsor,
-[alt=Sachsen]
+div #logo
 {
     display: none;
 }
+
+
 
 .skeleton_bottom * {
     all: initial;

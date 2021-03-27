@@ -18,6 +18,7 @@ a:hover {
 
 .top_outer .meta {
   background-color: inherit;
+  padding: 1em 0 0 0;
 }
 
 .top_outer .meta .top_login_text * {
@@ -29,8 +30,17 @@ a:hover {
   background-color: #303030;
 }
 
-.top_outer .switchNavigation {
-  margin: 0 0 0 10%;
+.top_outer .slogan {
+  all: inherit;
+  padding: 1em 0 0 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.top_outer .switchNavigation,
+.top_outer .mainNavigation {
+  padding-top: 2em;
 }
 
 .top_outer * {
@@ -39,10 +49,9 @@ a:hover {
 
 /*removed parts because they are never used*/
 .top_icons,
-.top_user_name,
 footer > .column:nth-last-child(1),
 .sponsor,
-[alt=Sachsen] {
+div #logo {
   display: none;
 }
 
