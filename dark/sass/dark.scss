@@ -41,20 +41,21 @@ border: none;
 }
 
 */
+
 /*removed parts because they are never used*/
 .top_icons,
 .top_user_name,
 footer > .column:nth-last-child(1),
 .sponsor,
-[alt=Sachsen] {
-  display: none;
+[alt=Sachsen]
+{
+    display: none;
 }
 
 .skeleton_bottom * {
-  all: initial;
+    all: initial;
 }
 
 .column2 {
-  text-align: left;
+    text-align: left;
 }
-/*# sourceMappingURL=dark.css.map */
