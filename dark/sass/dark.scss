@@ -2,7 +2,13 @@
 @import 'erase';
 
 @import 'inputs/inputs';
+@import 'inputs/button';
+@import 'inputs/dropdown';
+
 @import 'tooltip';
 @import 'link';
 
 @import 'page/page';
+@import 'page/header';
+@import 'page/body';
+@import 'page/footer';

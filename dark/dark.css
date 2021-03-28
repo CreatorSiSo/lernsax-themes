@@ -30,11 +30,11 @@ div #logo {
 }
 
 .select_outer:hover {
-  background-color: #808080;
+  background-color: #555555;
 }
 
 .select_outer:active {
-  background-color: #595959;
+  background-color: #555555;
 }
 
 .select_outer select {
@@ -49,6 +49,7 @@ div #logo {
           box-shadow: 0 0 0 2px #404040;
   color: #f4f4f4;
   background-color: #1d1d1d;
+  border-color: #404040 !important;
 }
 
 .select_outer select option:hover {
@@ -79,7 +80,7 @@ div #logo {
   border-color: #404040;
   border-radius: 6px;
   border-width: 2px;
-  padding: 2em;
+  padding: 1.5em;
   max-width: 50%;
   max-width: calc(50% - 30px);
   background-image: none;
@@ -96,6 +97,15 @@ a {
 
 a:hover {
   color: #5680c2;
+}
+
+.column a,
+.column2 a {
+  color: #f4f4f4 !important;
+}
+
+* {
+  outline: none;
 }
 
 .top_outer {
@@ -175,6 +185,24 @@ a:hover {
   background-color: inherit;
 }
 
+.skeleton_bottom {
+  border-top-color: #595959 !important;
+  background-color: #303030 !important;
+}
+
+.skeleton_bottom footer h3 {
+  color: #5680c2;
+}
+
+.skeleton_bottom img {
+  -webkit-filter: blur(0.5px) grayscale(90%) hue-rotate(10deg);
+          filter: blur(0.5px) grayscale(90%) hue-rotate(10deg);
+}
+
+.skeleton_bottom * {
+  color: #f4f4f4;
+}
+
 /*
 .skeleton_bottom * {
     all: initial;
@@ -183,6 +211,3 @@ a:hover {
         text-align: left;
     }
 }*/
-* {
-  outline: none;
-}

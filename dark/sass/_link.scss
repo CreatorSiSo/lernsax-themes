@@ -1,7 +1,15 @@
-a {
+a
+{
     color: $primary;
 
     &:hover {
         color: $primary;
+    }
+}
+
+.column,
+.column2 {
+    a {
+        color: $text !important;
     }
 }

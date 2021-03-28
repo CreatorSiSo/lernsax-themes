@@ -1,7 +1,22 @@
 @mixin dropdown {
     @include input;
     color: $text;
-    background-color: $background-2;
+    background-color: $dropdown-default;
+
+    &:hover {
+        background-color: $dropdown-hover;
+    }
+
+    &:active {
+        background-color: $dropdown-active;
+    }
+}
+
+@mixin dropdown-item {
+    @include input;
+    color: $text;
+    background-color: $background-1;
+    border-color: $outline !important;
 
     &:hover {
         background-color: $background-5;
@@ -12,16 +27,17 @@
     }
 }
 
-@mixin dropdown-item {
-    @include input;
-    color: $text;
-    background-color: $background-1;
+.select_outer {
+    @include dropdown;
+    margin: max($outline-width-active, $outline-width-hover, $outline-width-default);
 
-    &:hover {
-        background-color: $background-5;
-    }
+    select {
+        color:      $text;
+        border:     none;
+        background: none;
 
-    &:active {
-        background-color: $background-4;
+        option {
+            @include dropdown-item;
+        }
     }
 }

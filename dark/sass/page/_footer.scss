@@ -1,3 +1,22 @@
+.skeleton_bottom {
+    border-top-color: $background-4 !important;
+    background-color: $background-3 !important;
+
+    footer {
+        h3 {
+            color: $primary;
+        }
+    }
+
+    img {
+        filter: blur(0.5px) grayscale(90%) hue-rotate(10deg);
+    }
+
+    * {
+        color: $text;
+    }
+}
+
 /*
 .skeleton_bottom * {
     all: initial;
