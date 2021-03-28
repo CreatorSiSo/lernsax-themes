@@ -1,34 +1,8 @@
-@import 'config';
+@import 'configs/config_dark';
 @import 'erase';
 
 @import 'inputs/inputs';
 @import 'tooltip';
+@import 'link';
 
-@import 'page/header';
-@import 'page/body';
-@import 'page/footer';
-
-
-
-a {
-    color: $primary;
-
-    &:hover {
-        color: $primary;
-    }
-}
-
-.select_outer {
-    @include dropdown;
-    margin: 3px;
-
-    select {
-        color:      $text;
-        border:     none;
-        background: none;
-
-        option {
-            @include dropdown-item;
-        }
-    }
-}
+@import 'page/page';

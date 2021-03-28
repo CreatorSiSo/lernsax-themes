@@ -1,0 +1,31 @@
+//colors
+$primary:       #5680c2;
+$secondary:     #8f8f8f;
+
+$privat:        #d45a68;
+$institution:   #70b2ff;
+$network:       #f2994a;
+$material:      #00d6a3;
+
+$text:          #f4f4f4;
+$background-0:  #181818;
+$background-1:  #1d1d1d;
+$background-2:  #2c2c2c;
+$background-3:  #303030;
+$background-4:  #595959;
+$background-5:  #808080;
+
+$outline:       #404040;
+
+//styles
+$border-radius: 6px;
+
+$outline-width-default: 2px;
+$outline-width-hover:   3px;
+$outline-width-active:  3px;
+
+//transitions
+$ease:                  ease-in-out;
+$transition-fast:       $ease 150ms;
+$transition-default:    $ease 250ms;
+$transition-slow:       $ease 400ms;

@@ -1,4 +1,5 @@
-@import 'buttons';
+@import 'button';
+@import 'dropdown';
 
 @mixin input {
     border-radius: $border-radius;
@@ -15,34 +16,17 @@
     }
 }
 
-@mixin dropdown {
-    @include input;
-    color: $text;
-    background-color: $background-2;
+.select_outer {
+    @include dropdown;
+    margin: 3px;
 
-    &:hover {
-        background-color: $background-5;
+    select {
+        color:      $text;
+        border:     none;
+        background: none;
+
+        option {
+            @include dropdown-item;
+        }
     }
-
-    &:active {
-        background-color: $background-4;
-    }
-}
-
-@mixin dropdown-item {
-    @include input;
-    color: $text;
-    background-color: $background-1;
-
-    &:hover {
-        background-color: $background-5;
-    }
-
-    &:active {
-        background-color: $background-4;
-    }
-}
-
-* {
-    outline: none;
 }
