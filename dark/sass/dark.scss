@@ -13,6 +13,8 @@ $background-1:  #1d1d1d;
 $background-2:  #2c2c2c;
 $background-3:  #303030;
 
+$outline:       #f4f4f4;
+
 //styles
 $border-radius-button: 5px;
 
@@ -32,7 +34,7 @@ a {
 
     .meta {
         background-color: inherit;
-        padding: 1em 0 0 0;
+        padding: 1em 1% 0 0;
 
         .top_login_text * {
             background-color: $primary;
@@ -44,19 +46,29 @@ a {
         }
 
         .buttonSearch {
-            background-color: red;
+            filter: grayscale(100%);
         }
     }
 
     .slogan {
         all: inherit;
         padding: 1em 0 0 0;
-        width: auto;
+        width: fit-content;
+
+        background-color: rgba(0, 0, 0, 0);
+        filter: invert(100%) hue-rotate(-72deg) saturate(115%);
     }
 
-    .switchNavigation,
+    .switchNavigation{
+        padding-top: 2em;
+    }
+
     .mainNavigation {
         padding-top: 2em;
+
+        > * > * > * > * > * {
+            color: $text !important;
+        }
     }
 
     * {

@@ -14,7 +14,7 @@ a:hover {
 
 .top_outer .meta {
   background-color: inherit;
-  padding: 1em 0 0 0;
+  padding: 1em 1% 0 0;
 }
 
 .top_outer .meta .top_login_text * {
@@ -27,18 +27,31 @@ a:hover {
 }
 
 .top_outer .meta .buttonSearch {
-  background-color: red;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .top_outer .slogan {
   all: inherit;
   padding: 1em 0 0 0;
-  width: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-filter: invert(100%) hue-rotate(-72deg) saturate(115%);
+          filter: invert(100%) hue-rotate(-72deg) saturate(115%);
 }
 
-.top_outer .switchNavigation,
+.top_outer .switchNavigation {
+  padding-top: 2em;
+}
+
 .top_outer .mainNavigation {
   padding-top: 2em;
+}
+
+.top_outer .mainNavigation > * > * > * > * > * {
+  color: #f4f4f4 !important;
 }
 
 .top_outer * {
