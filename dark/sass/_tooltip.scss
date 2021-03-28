@@ -1,0 +1,16 @@
+#tooltip {
+    color:              $text;
+    background-color:   $background-2;
+    border-color:       $outline;
+    border-radius:      $border-radius;
+    border-width:       $outline-width-default;
+    padding:            2em;
+    max-width:          50%;
+    max-width:          calc(50% - 30px);
+    background-image: none;
+}
+
+#tooltip_td {
+    background-color:   $background-2;
+    background-image: none;
+}

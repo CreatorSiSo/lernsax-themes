@@ -1,0 +1,25 @@
+@mixin button-active {
+    @include input;
+    color: $text;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+@mixin button-not-active {
+    @include input;
+    color: $text;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}

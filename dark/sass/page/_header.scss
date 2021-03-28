@@ -1,0 +1,47 @@
+.top_outer {
+    background: none !important;
+    background-color: $background-2 !important;
+
+    width: auto;
+
+    .meta {
+        background-color: inherit;
+        padding: 1em 1% 0 0;
+
+        .top_login_text * {
+            background-color: $primary;
+            @include button-active;
+        }
+
+        .buttonSearch {
+            filter: grayscale(100%);
+        }
+    }
+
+    .slogan {
+        all: inherit;
+        padding: 1em 0 0 0;
+        width: fit-content;
+
+        background-color: rgba(0, 0, 0, 0);
+        filter: invert(100%) hue-rotate(-72deg) saturate(115%);
+    }
+
+    .switchNavigation{
+        margin-left: 20%;
+        padding-top: 2em;
+        width: fit-content;
+    }
+
+    .mainNavigation {
+        padding-top: 2em;
+
+        > * > * > * > * > * {
+            color: $text !important;
+        }
+    }
+
+    * {
+        background-color: inherit;
+    }
+}

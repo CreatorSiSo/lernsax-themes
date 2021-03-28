@@ -1,101 +1,14 @@
-//colors
-$primary:       #5680c2;
-$secondary:     #8f8f8f;
+@import 'config';
+@import 'erase';
 
-$privat:        #d45a68;
-$institution:   #70b2ff;
-$network:       #f2994a;
-$material:      #00d6a3;
+@import 'inputs/inputs';
+@import 'tooltip';
 
-$text:          #f4f4f4;
-$background-0:  #181818;
-$background-1:  #1d1d1d;
-$background-2:  #2c2c2c;
-$background-3:  #303030;
-$background-4:  #595959;
-$background-5:  #808080;
+@import 'page/header';
+@import 'page/body';
+@import 'page/footer';
 
-$outline:       #404040;
 
-//styles
-$border-radius: 6px;
-
-$outline-width-default: 2px;
-$outline-width-hover:   3px;
-$outline-width-active:  3px;
-
-@mixin input {
-    border-radius: $border-radius;
-    box-shadow: 0 0 0 $outline-width-default $outline;
-
-    &:hover {
-        box-shadow: 0 0 0 $outline-width-hover $outline;
-        transition: ease-in-out 200ms;
-    }
-
-    &:hover {
-        box-shadow: 0 0 0 $outline-width-active $outline;
-        transition: ease-in-out 200ms;
-    }
-}
-
-@mixin button-active {
-    @include input;
-    color: $text;
-
-    &:hover {
-        background-color: $background-5;
-    }
-
-    &:active {
-        background-color: $background-4;
-    }
-}
-
-@mixin button-not-active {
-    @include input;
-    color: $text;
-
-    &:hover {
-        background-color: $background-5;
-    }
-
-    &:active {
-        background-color: $background-4;
-    }
-}
-
-@mixin dropdown {
-    @include input;
-    color: $text;
-    background-color: $background-2;
-
-    &:hover {
-        background-color: $background-5;
-    }
-
-    &:active {
-        background-color: $background-4;
-    }
-}
-
-@mixin dropdown-item {
-    @include input;
-    color: $text;
-    background-color: $background-1;
-
-    &:hover {
-        background-color: $background-5;
-    }
-
-    &:active {
-        background-color: $background-4;
-    }
-}
-
-* {
-    outline: none;
-}
 
 a {
     color: $primary;
@@ -110,8 +23,8 @@ a {
     margin: 3px;
 
     select {
-        color: $text;
-        border: none;
+        color:      $text;
+        border:     none;
         background: none;
 
         option {
@@ -119,68 +32,3 @@ a {
         }
     }
 }
-
-.top_outer {
-    background: none !important;
-    background-color: $background-2 !important;
-
-    width: auto;
-
-    .meta {
-        background-color: inherit;
-        padding: 1em 1% 0 0;
-
-        .top_login_text * {
-            background-color: $primary;
-            @include button-active;
-        }
-
-        .buttonSearch {
-            filter: grayscale(100%);
-        }
-    }
-
-    .slogan {
-        all: inherit;
-        padding: 1em 0 0 0;
-        width: fit-content;
-
-        background-color: rgba(0, 0, 0, 0);
-        filter: invert(100%) hue-rotate(-72deg) saturate(115%);
-    }
-
-    .switchNavigation{
-        padding-top: 2em;
-    }
-
-    .mainNavigation {
-        padding-top: 2em;
-
-        > * > * > * > * > * {
-            color: $text !important;
-        }
-    }
-
-    * {
-        background-color: inherit;
-    }
-}
-
-/*removed parts because they are never used*/
-.top_icons,
-footer > .column:nth-last-child(1),
-.sponsor,
-div #logo
-{
-    display: none;
-}
-
-
-/*
-.skeleton_bottom * {
-    all: initial;
-    
-    .column2 {
-        text-align: left;
-    }
-}*/

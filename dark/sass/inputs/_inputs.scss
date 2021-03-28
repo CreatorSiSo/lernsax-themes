@@ -1,0 +1,48 @@
+@import 'buttons';
+
+@mixin input {
+    border-radius: $border-radius;
+    box-shadow: 0 0 0 $outline-width-default $outline;
+
+    &:hover {
+        box-shadow: 0 0 0 $outline-width-hover $outline;
+        transition: $transition-default;
+    }
+
+    &:hover {
+        box-shadow: 0 0 0 $outline-width-active $outline;
+        transition: $transition-default;
+    }
+}
+
+@mixin dropdown {
+    @include input;
+    color: $text;
+    background-color: $background-2;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+@mixin dropdown-item {
+    @include input;
+    color: $text;
+    background-color: $background-1;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+* {
+    outline: none;
+}
