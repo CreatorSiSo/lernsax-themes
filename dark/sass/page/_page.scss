@@ -1,3 +1,40 @@
 * {
     outline: none;
 }
+
+#auto_grow,
+.document {
+    color: $text;
+    background-color: $background-1;
+    background-image: none;
+}
+
+#skeleton_inner {
+    margin-left: 0;
+    padding: 0 5%;
+    width: auto;
+
+    color: $text;
+    background-color: $background-1;
+}
+
+.menu_outer {
+    width: fit-content;
+
+    .menu_inner {
+        .menu_0t {
+            border-radius: $border-radius $border-radius 0 0;
+        }
+
+        .menu_main *{
+            color: $text;
+            background-color: $background-3 !important;
+
+            padding-right: 1em;
+        }
+    }
+}
+
+[class*=content] {
+    background-color: $background-1;
+}

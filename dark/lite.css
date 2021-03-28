@@ -2,7 +2,8 @@
 .top_icons,
 footer > .column:nth-last-child(1),
 .sponsor,
-div #logo {
+div #logo,
+.default_submit_button {
   display: none;
 }
 
@@ -38,4 +39,39 @@ a:hover {
 
 * {
   outline: none;
+}
+
+#auto_grow,
+.document {
+  color: #f4f4f4;
+  background-color: #1d1d1d;
+  background-image: none;
+}
+
+#skeleton_inner {
+  margin-left: 0;
+  padding: 0 5%;
+  width: auto;
+  color: #f4f4f4;
+  background-color: #1d1d1d;
+}
+
+.menu_outer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.menu_outer .menu_inner .menu_0t {
+  border-radius: 6px 6px 0 0;
+}
+
+.menu_outer .menu_inner .menu_main * {
+  color: #f4f4f4;
+  background-color: #303030 !important;
+  padding-right: 1em;
+}
+
+[class*=content] {
+  background-color: #1d1d1d;
 }
