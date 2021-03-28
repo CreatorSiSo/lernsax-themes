@@ -1,9 +1,80 @@
+* {
+  outline: none;
+}
+
 a {
   color: #5680c2;
 }
 
 a:hover {
-  color: #8f8f8f;
+  color: #5680c2;
+}
+
+.select_outer {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 0 2px #404040;
+          box-shadow: 0 0 0 2px #404040;
+  color: #f4f4f4;
+  background-color: #2c2c2c;
+  margin: 3px;
+}
+
+.select_outer:hover {
+  -webkit-box-shadow: 0 0 0 3px #404040;
+          box-shadow: 0 0 0 3px #404040;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.select_outer:hover {
+  -webkit-box-shadow: 0 0 0 3px #404040;
+          box-shadow: 0 0 0 3px #404040;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.select_outer:hover {
+  background-color: #808080;
+}
+
+.select_outer:active {
+  background-color: #595959;
+}
+
+.select_outer select {
+  color: #f4f4f4;
+  border: none;
+  background: none;
+}
+
+.select_outer select option {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 0 2px #404040;
+          box-shadow: 0 0 0 2px #404040;
+  color: #f4f4f4;
+  background-color: #1d1d1d;
+}
+
+.select_outer select option:hover {
+  -webkit-box-shadow: 0 0 0 3px #404040;
+          box-shadow: 0 0 0 3px #404040;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.select_outer select option:hover {
+  -webkit-box-shadow: 0 0 0 3px #404040;
+          box-shadow: 0 0 0 3px #404040;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.select_outer select option:hover {
+  background-color: #808080;
+}
+
+.select_outer select option:active {
+  background-color: #595959;
 }
 
 .top_outer {
@@ -19,11 +90,32 @@ a:hover {
 
 .top_outer .meta .top_login_text * {
   background-color: #5680c2;
-  border-radius: 5px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 0 2px #404040;
+          box-shadow: 0 0 0 2px #404040;
+  color: #f4f4f4;
 }
 
 .top_outer .meta .top_login_text *:hover {
-  background-color: #303030;
+  -webkit-box-shadow: 0 0 0 3px #404040;
+          box-shadow: 0 0 0 3px #404040;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.top_outer .meta .top_login_text *:hover {
+  -webkit-box-shadow: 0 0 0 3px #404040;
+          box-shadow: 0 0 0 3px #404040;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+.top_outer .meta .top_login_text *:hover {
+  background-color: #808080;
+}
+
+.top_outer .meta .top_login_text *:active {
+  background-color: #595959;
 }
 
 .top_outer .meta .buttonSearch {
@@ -66,10 +158,11 @@ div #logo {
   display: none;
 }
 
+/*
 .skeleton_bottom * {
-  all: initial;
-}
-
-.skeleton_bottom * .column2 {
-  text-align: left;
-}
+    all: initial;
+    
+    .column2 {
+        text-align: left;
+    }
+}*/

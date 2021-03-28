@@ -12,17 +12,111 @@ $background-0:  #181818;
 $background-1:  #1d1d1d;
 $background-2:  #2c2c2c;
 $background-3:  #303030;
+$background-4:  #595959;
+$background-5:  #808080;
 
-$outline:       #f4f4f4;
+$outline:       #404040;
 
 //styles
-$border-radius-button: 5px;
+$border-radius: 6px;
+
+$outline-width-default: 2px;
+$outline-width-hover:   3px;
+$outline-width-active:  3px;
+
+@mixin input {
+    border-radius: $border-radius;
+    box-shadow: 0 0 0 $outline-width-default $outline;
+
+    &:hover {
+        box-shadow: 0 0 0 $outline-width-hover $outline;
+        transition: ease-in-out 200ms;
+    }
+
+    &:hover {
+        box-shadow: 0 0 0 $outline-width-active $outline;
+        transition: ease-in-out 200ms;
+    }
+}
+
+@mixin button-active {
+    @include input;
+    color: $text;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+@mixin button-not-active {
+    @include input;
+    color: $text;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+@mixin dropdown {
+    @include input;
+    color: $text;
+    background-color: $background-2;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+@mixin dropdown-item {
+    @include input;
+    color: $text;
+    background-color: $background-1;
+
+    &:hover {
+        background-color: $background-5;
+    }
+
+    &:active {
+        background-color: $background-4;
+    }
+}
+
+* {
+    outline: none;
+}
 
 a {
     color: $primary;
 
     &:hover {
-        color: $secondary;
+        color: $primary;
+    }
+}
+
+.select_outer {
+    @include dropdown;
+    margin: 3px;
+
+    select {
+        color: $text;
+        border: none;
+        background: none;
+
+        option {
+            @include dropdown-item;
+        }
     }
 }
 
@@ -38,11 +132,7 @@ a {
 
         .top_login_text * {
             background-color: $primary;
-            border-radius: $border-radius-button;
-
-            &:hover {
-                background-color: $background-3;
-            }
+            @include button-active;
         }
 
         .buttonSearch {
@@ -86,11 +176,11 @@ div #logo
 }
 
 
-
+/*
 .skeleton_bottom * {
     all: initial;
     
     .column2 {
         text-align: left;
     }
-}
+}*/
